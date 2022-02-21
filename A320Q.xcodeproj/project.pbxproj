@@ -83,9 +83,9 @@
 		A4A4F34F27BFCBDB003013A6 /* QuestionView */ = {
 			isa = PBXGroup;
 			children = (
+				A4A4F34127BEA893003013A6 /* QuestionView.swift */,
 				A4A4F34327BEF115003013A6 /* BottomLabelView.swift */,
 				A4B50E0327BA629200C3F82E /* ButtonLayoutView.swift */,
-				A4A4F34127BEA893003013A6 /* QuestionView.swift */,
 			);
 			path = QuestionView;
 			sourceTree = "<group>";

@@ -8,28 +8,47 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.colorScheme) var colorScheme
+    
+    init() {
+        UITableView.appearance().backgroundColor = .clear
+    }
+    
     var body: some View {
         NavigationView{
-            VStack {
-                List{
-                    ForEach(1..<5) { i in
-                        NavigationLink {
-                            EmptyView()
-                        } label: {
-                            Text("\(i)")
+            ZStack {
+                VStack {
+                    List{
+                        ForEach(1..<15) { i in
+                            NavigationLink {
+                                EmptyView()
+                            } label: {
+                                Text("\(i)")
+                                
+                                    
+                            }
+                            .listRowBackground(opacity(0.5))
                         }
                     }
+                    .listStyle(InsetGroupedListStyle())
                 }
-                .listStyle(GroupedListStyle())
-            }
-            .navigationTitle("Airbus Questions")
-            .navigationBarTitleDisplayMode(.inline)
+                
+                .navigationTitle("Airbus Questions")
+                .navigationBarTitleDisplayMode(.inline)
+            }.background( LinearGradient(gradient: Gradient(colors: [.blue, .white, .brown]), startPoint: .topLeading, endPoint: .bottomTrailing))
         }
+       
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                    .preferredColorScheme(.light)
+                
+            ContentView()
+                    .preferredColorScheme(.dark)
+        }
     }
 }
