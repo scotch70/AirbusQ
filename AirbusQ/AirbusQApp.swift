@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct AirbusQApp: App {
+struct A320QApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

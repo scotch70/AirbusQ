@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4A4F34227BEA893003013A6 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34127BEA893003013A6 /* QuestionView.swift */; };
+		A4A4F34427BEF115003013A6 /* BottomLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34327BEF115003013A6 /* BottomLabelView.swift */; };
+		A4A4F34927BEF547003013A6 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34827BEF547003013A6 /* QuestionModel.swift */; };
+		A4A4F34C27BEF590003013A6 /* QRHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34B27BEF590003013A6 /* QRHModel.swift */; };
+		A4A4F34E27BFCB18003013A6 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34D27BFCB18003013A6 /* QuestionViewModel.swift */; };
 		A4B50DF427B9604F00C3F82E /* AirbusQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B50DF327B9604F00C3F82E /* AirbusQApp.swift */; };
 		A4B50DF627B9604F00C3F82E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B50DF527B9604F00C3F82E /* ContentView.swift */; };
 		A4B50DF827B9604F00C3F82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B50DF727B9604F00C3F82E /* Assets.xcassets */; };
 		A4B50DFB27B9604F00C3F82E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B50DFA27B9604F00C3F82E /* Preview Assets.xcassets */; };
+		A4B50E0227B9642000C3F82E /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B50E0127B9642000C3F82E /* DisclaimerView.swift */; };
+		A4B50E0427BA629200C3F82E /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B50E0327BA629200C3F82E /* ButtonLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4B50DF027B9604E00C3F82E /* AirbusQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbusQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A4F34127BEA893003013A6 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		A4A4F34327BEF115003013A6 /* BottomLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLabelView.swift; sourceTree = "<group>"; };
+		A4A4F34827BEF547003013A6 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		A4A4F34B27BEF590003013A6 /* QRHModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRHModel.swift; sourceTree = "<group>"; };
+		A4A4F34D27BFCB18003013A6 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		A4B50DF027B9604E00C3F82E /* A320Q.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A320Q.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B50DF327B9604F00C3F82E /* AirbusQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbusQApp.swift; sourceTree = "<group>"; };
 		A4B50DF527B9604F00C3F82E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4B50DF727B9604F00C3F82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B50DFA27B9604F00C3F82E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4B50E0127B9642000C3F82E /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		A4B50E0327BA629200C3F82E /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4A4F34527BEF13D003013A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4B50DF527B9604F00C3F82E /* ContentView.swift */,
+				A4B50E0127B9642000C3F82E /* DisclaimerView.swift */,
+				A4A4F34F27BFCBDB003013A6 /* QuestionView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4A4F34627BEF143003013A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4F34D27BFCB18003013A6 /* QuestionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4A4F34727BEF14C003013A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4F34827BEF547003013A6 /* QuestionModel.swift */,
+				A4A4F34B27BEF590003013A6 /* QRHModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4A4F34A27BEF55A003013A6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A4A4F34F27BFCBDB003013A6 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4F34327BEF115003013A6 /* BottomLabelView.swift */,
+				A4B50E0327BA629200C3F82E /* ButtonLayoutView.swift */,
+				A4A4F34127BEA893003013A6 /* QuestionView.swift */,
+			);
+			path = QuestionView;
+			sourceTree = "<group>";
+		};
 		A4B50DE727B9604E00C3F82E = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +101,7 @@
 		A4B50DF127B9604E00C3F82E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4B50DF027B9604E00C3F82E /* AirbusQ.app */,
+				A4B50DF027B9604E00C3F82E /* A320Q.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				A4B50DF327B9604F00C3F82E /* AirbusQApp.swift */,
-				A4B50DF527B9604F00C3F82E /* ContentView.swift */,
+				A4A4F34527BEF13D003013A6 /* View */,
+				A4A4F34627BEF143003013A6 /* ViewModel */,
+				A4A4F34727BEF14C003013A6 /* Model */,
+				A4A4F34A27BEF55A003013A6 /* Database */,
 				A4B50DF727B9604F00C3F82E /* Assets.xcassets */,
 				A4B50DF927B9604F00C3F82E /* Preview Content */,
 			);
@@ -70,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4B50DEF27B9604E00C3F82E /* AirbusQ */ = {
+		A4B50DEF27B9604E00C3F82E /* A320Q */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4B50DFE27B9604F00C3F82E /* Build configuration list for PBXNativeTarget "AirbusQ" */;
+			buildConfigurationList = A4B50DFE27B9604F00C3F82E /* Build configuration list for PBXNativeTarget "A320Q" */;
 			buildPhases = (
 				A4B50DEC27B9604E00C3F82E /* Sources */,
 				A4B50DED27B9604E00C3F82E /* Frameworks */,
@@ -82,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = AirbusQ;
+			name = A320Q;
 			productName = AirbusQ;
-			productReference = A4B50DF027B9604E00C3F82E /* AirbusQ.app */;
+			productReference = A4B50DF027B9604E00C3F82E /* A320Q.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4B50DEB27B9604E00C3F82E /* Build configuration list for PBXProject "AirbusQ" */;
+			buildConfigurationList = A4B50DEB27B9604E00C3F82E /* Build configuration list for PBXProject "A320Q" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4B50DEF27B9604E00C3F82E /* AirbusQ */,
+				A4B50DEF27B9604E00C3F82E /* A320Q */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A4F34927BEF547003013A6 /* QuestionModel.swift in Sources */,
+				A4A4F34227BEA893003013A6 /* QuestionView.swift in Sources */,
 				A4B50DF627B9604F00C3F82E /* ContentView.swift in Sources */,
+				A4B50E0227B9642000C3F82E /* DisclaimerView.swift in Sources */,
+				A4B50E0427BA629200C3F82E /* ButtonLayoutView.swift in Sources */,
+				A4A4F34C27BEF590003013A6 /* QRHModel.swift in Sources */,
+				A4A4F34427BEF115003013A6 /* BottomLabelView.swift in Sources */,
+				A4A4F34E27BFCB18003013A6 /* QuestionViewModel.swift in Sources */,
 				A4B50DF427B9604F00C3F82E /* AirbusQApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +351,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nl.appstimize.AirbusQ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = A320Q;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +380,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nl.appstimize.AirbusQ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = A320Q;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +390,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4B50DEB27B9604E00C3F82E /* Build configuration list for PBXProject "AirbusQ" */ = {
+		A4B50DEB27B9604E00C3F82E /* Build configuration list for PBXProject "A320Q" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B50DFC27B9604F00C3F82E /* Debug */,
@@ -331,7 +399,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4B50DFE27B9604F00C3F82E /* Build configuration list for PBXNativeTarget "AirbusQ" */ = {
+		A4B50DFE27B9604F00C3F82E /* Build configuration list for PBXNativeTarget "A320Q" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B50DFF27B9604F00C3F82E /* Debug */,
