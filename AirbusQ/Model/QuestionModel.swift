@@ -15,10 +15,10 @@ struct QuestionModel: Codable, Identifiable {
     
     struct questionArray: Codable, Hashable {
         let questionText: String
-        let image: String?
         let answerA: String
         let answerB: String
         let answerC: String
+        let answerD: String
         var correctAnswer: Int
         let fcom: String?
     }

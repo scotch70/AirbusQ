@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme
+    let limits: [QuestionModel] = Bundle.main.decode("Limitations.json")
+    @StateObject var questionVM = QuestionViewModel()
     
     init() {
         UITableView.appearance().backgroundColor = .clear
@@ -19,15 +21,25 @@ struct ContentView: View {
             ZStack {
                 VStack {
                     List{
-                        ForEach(1..<15) { i in
-                            NavigationLink {
-                                EmptyView()
-                            } label: {
-                                Text("\(i)")
-                                
-                                    
+                        Section(header: Text("Subjects:")) {
+                        
+                            ForEach(1..<10) { i in
+                                NavigationLink {
+                                    EmptyView()
+                                } label: {
+                                    Text("\(i)")
+                                }
+                                .listRowBackground(opacity(0.5))
                             }
-                            .listRowBackground(opacity(0.5))
+                        }
+                        
+                        Section(header: Text("Limitations")) {
+                            ForEach(limits) { limit in
+                                NavigationLink(destination: QuestionView(questions: limit)) {
+                                    Text("limit")
+                                }
+                            }
+                            
                         }
                     }
                     .listStyle(InsetGroupedListStyle())

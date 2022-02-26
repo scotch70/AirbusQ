@@ -15,6 +15,8 @@ struct DisclaimerView: View {
     
     var body: some View {
         VStack{
+            
+            //Logo to go
             VStack(alignment: .leading, spacing: 15) {
                 Text("""
                      A320 Quiz, is meant to be used for training and trainig only. The app cannot and shall not be used as a reference for technical or any other matters related to the Airbus. for reference use the applicable official Airbus documentation.

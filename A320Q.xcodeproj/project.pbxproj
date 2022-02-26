@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48D735227CA70AF00B0960F /* Limitations.json in Resources */ = {isa = PBXBuildFile; fileRef = A48D735127CA70AF00B0960F /* Limitations.json */; };
+		A48D735427CA70EC00B0960F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D735327CA70EC00B0960F /* Bundle-Decodable.swift */; };
 		A4A4F34227BEA893003013A6 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34127BEA893003013A6 /* QuestionView.swift */; };
 		A4A4F34427BEF115003013A6 /* BottomLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34327BEF115003013A6 /* BottomLabelView.swift */; };
 		A4A4F34927BEF547003013A6 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F34827BEF547003013A6 /* QuestionModel.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A48D735127CA70AF00B0960F /* Limitations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Limitations.json; sourceTree = "<group>"; };
+		A48D735327CA70EC00B0960F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		A4A4F34127BEA893003013A6 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		A4A4F34327BEF115003013A6 /* BottomLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLabelView.swift; sourceTree = "<group>"; };
 		A4A4F34827BEF547003013A6 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 			children = (
 				A4A4F34827BEF547003013A6 /* QuestionModel.swift */,
 				A4A4F34B27BEF590003013A6 /* QRHModel.swift */,
+				A48D735327CA70EC00B0960F /* Bundle-Decodable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 		A4A4F34A27BEF55A003013A6 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				A48D735127CA70AF00B0960F /* Limitations.json */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B50DFB27B9604F00C3F82E /* Preview Assets.xcassets in Resources */,
+				A48D735227CA70AF00B0960F /* Limitations.json in Resources */,
 				A4B50DF827B9604F00C3F82E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 				A4B50E0427BA629200C3F82E /* ButtonLayoutView.swift in Sources */,
 				A4A4F34C27BEF590003013A6 /* QRHModel.swift in Sources */,
 				A4A4F34427BEF115003013A6 /* BottomLabelView.swift in Sources */,
+				A48D735427CA70EC00B0960F /* Bundle-Decodable.swift in Sources */,
 				A4A4F34E27BFCB18003013A6 /* QuestionViewModel.swift in Sources */,
 				A4B50DF427B9604F00C3F82E /* AirbusQApp.swift in Sources */,
 			);
